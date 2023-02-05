@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Foodie Woodie</title>
     <style>
+        .foodie-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
         h1 {
-            background-color: bisque; 
+            background-color: bisque;
             color: black;
             border-radius: 10px 0px 10px 0px;
             border-color: rgb(22, 20, 20);
@@ -14,95 +20,108 @@
             margin-left: auto;
             margin-right: auto;
         }
+
         h2 {
             font-size: 25px;
         }
+
         .momo {
             border-color: black;
             border-style: double;
             border-width: 5px;
             border-radius: 10px;
-            padding: 3px ;
+            padding: 3px;
             height: 350px;
-            width: 500px;
+            width: 400px;
         }
+
         h2 {
             color: sandybrown;
             font-size: 30px;
         }
+
         .momos {
             background-color: rgb(249, 251, 252);
             border-style: inset;
             border-radius: 0px 15px 0px 15px;
             padding: 35px;
-            width: 600px;
+            width: 400px;
             padding-top: 15px;
             margin-top: 40px;
             margin-left: 30px;
+            box-shadow: 0 0 10px black;
+
         }
+
         .halwa {
             background-color: rgb(249, 251, 252);
             border-style: inset;
             border-radius: 0px 15px 0px 15px;
             padding: 35px;
-            width: 600px;
+            width: 400px;
             padding-top: 15px;
             margin-top: 40px;
             margin-left: 30px;
+            box-shadow: 0 0 10px black;
         }
+
         .halwa1 {
             border-color: black;
             border-style: double;
             border-width: 5px;
             border-radius: 10px;
-            padding: 3px ;
+            padding: 3px;
             height: 350px;
-            width: 500px;
+            width: 400px;
         }
+
         p {
             font-size: 20px;
         }
-        
     </style>
 </head>
+
 <body>
     <h1>😋 Foodie Woodie 😋</h1>
-     
-    <div class="momos">
-        <h2>Momos : Never ending love for momos.❤️</h2>
-        <p>
-            <b>Momos, originating from Tibet is a hugely popular street food in the country, largely in North-India.</b> 
-       </p>
-        <img src="momo.jpg" alt="Momos" class="momo"> <br>
-        <a href="Momos.html">
-            More about Momos
-        </a>
-    </div>
-    <div class="halwa">
-        <h2>
-            Gajar ka halwa
-        </h2>
-        <p>
-           <b>Gajar halwa is a popular sweet made in North India, and it is especially popular during winters.</b> 
-        </p>
-        <img src="halwa.jpg" alt="Gajar" height="100px" class="halwa1"> <br>
-        
-        <a href="Gajarkahalwa.html">
-            More about Gajar ka halwa
-        </a>
-    </div>
-    <div class="halwa">
-        <h2>
-            Biryani🍗
-        </h2>
-        <p>
-           <b>Biryani🍗 is a popular dish made in India, and it is especially popular during winters.</b> 
-        </p>
-        <img src="Biryani.jpg" alt="Gajar" height="100px" class="halwa1"> <br>
-        
-        <a href="Gajarkahalwa.html">
-            More about Biryani🍗
-        </a>
+    <div class="foodie-container">
+        <div class="momos">
+            <h2>Momos : Never ending love for momos.❤️</h2>
+            <p>
+                <b>Momos, originating from Tibet is a hugely popular street food in the country, largely in
+                    North-India.</b>
+            </p>
+            <img src="momo.jpg" alt="Momos" class="momo"> <br>
+            <a href="Momos.html">
+                More about Momos
+            </a>
+        </div>
+        <div class="halwa">
+            <h2>
+                Gajar ka halwa
+            </h2>
+            <p>
+                <b>Gajar halwa is a popular sweet made in North India, and it is especially popular during winters.</b>
+            </p>
+            <img src="halwa.jpg" alt="Gajar" height="100px" class="halwa1"> <br>
+
+            <a href="Gajarkahalwa.html">
+                More about Gajar ka halwa
+            </a>
+        </div>
+        <div class="halwa">
+            <h2>
+                Biryani🍗
+            </h2>
+            <p>
+                <b>Biryani🍗 is a popular dish made in India, and it is especially popular during winters.</b>
+            </p>
+            <img src="Biryani.jpg" alt="Gajar" height="100px" class="halwa1"> <br>
+
+            <a href="Gajarkahalwa.html">
+                More about Biryani🍗
+            </a>
+        </div>
     </div>
 </body>
+
 </html>
